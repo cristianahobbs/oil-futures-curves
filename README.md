@@ -30,10 +30,10 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 
 | | Front month | 12th month | Curve | Carry vs 5-year norm for November | Long only when backwardated | Carry long-short |
 |---|---|---|---|---|---|---|
-| WTI crude oil | $87.44 (Dec 2026) | $74.43 | backwardation (+21.6%) | +19.8% | long | long |
-| RBOB gasoline | $2.616 (Dec 2026) | $2.323 | flat (-0.2%) | +4.5% | flat | short |
-| Heating oil / ULSD | $4.250 (Dec 2026) | $3.392 | backwardation (+26.8%) | +17.3% | long | short |
-| Natural gas | $3.37 (Dec 2026) | $3.36 | backwardation (+224.5%) | +155.3% | long | long |
+| WTI crude oil | $86.36 (Dec 2026) | $74.79 | backwardation (+18.1%) | +16.3% | long | long |
+| RBOB gasoline | $2.607 (Dec 2026) | $2.343 | flat (-0.2%) | +4.6% | flat | short |
+| Heating oil / ULSD | $4.213 (Dec 2026) | $3.401 | backwardation (+25.4%) | +15.8% | long | short |
+| Natural gas | $3.24 (Dec 2026) | $3.34 | backwardation (+219.8%) | +150.6% | long | long |
 
 **Spot** (EIA, as of 03 Nov 2026). Brent trades $7.39 above WTI.
 
@@ -47,14 +47,14 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 
 **Headlines**
 
-- [Gas prices for 11/11/26: What will you pay on Veterans Day?](https://news.google.com/rss/articles/CBMilwFBVV95cUxPcWdZQzZzVC1PSDJUMm54TFUzSTVablVOcjE0eGVHcE1fMllYa1JKSlQ3Yk9qWkZ4dXNSd2hvS1FrX0dLbTJuU2tYOTVxbEpHdG05TUwzeExEWmstRnNGR0FWZ19Vc2l4LUxZWWVuRHdlUTF2SWZ3UmR4ZFlzdmRiWGpxMU85a3g2YzFhQ2lQSGRIcHRHSVVz0gGrAUFVX3lxTFAyU2ZwRHc3TC1WMHZGLWdRSHpWMG9nRzZTVE1VUC0zaTBvdml3RTRmeDRxM1hKYlNuT3l5U1JKT2xVd3NST3ZwaU42T1NxczZnbWtzejhYR016ZzVuZjF5WVZqby1yWF9rbDQxaHV4dkxxNXBMWFd6d3ZQR0w2bExPMktYYmhBMlBzTlNYOE1LNjB2dUtISklxSXJwOE9iVEhHSnluMkFZNjRWTQ?oc=5) (AL.com)
-- [Oil prices rebound as Iran tensions cloud prospects for peace deal](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMk15cjhtQnAyUmRpb1dQTFpEd2VIazZJRXlsVjkzcG9tTS1scUJSRFd1N0hobkdFQ2ozLUFZRWNlS2o5dHlNV0ZoWWNxRUJGRlJlYk9qSFFSTVJydzlmZ184VlBQOXJ2djF4QkFwdkJuQ19FUHgyQmN1Y04yakptYmRtamI0TFRGaUtodUZZVjMxNXNkaGUwQ0VJRHJXX2NHaWVzTEc1TU92Ykd1c3NySUkwQ1diTEI5QTZwcEFNaXVQSEtwNXQzdQ?oc=5) (TradingView)
-- [Rupee closes at seven-month high of 93.69 as FPI inflows, lower crude prices boost sentiment](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUkduT1FDLWV1TVFPU00tU3lYVlJhQ01BcmMwX18yWDB3THhYTnpKQWlLNXNCM0F3MjRsRzFOZ2xSVFdTcEp4cVpDcnhNOWNlUVdVbm9NNnQ1Qi1Hc2xpWklXUlF3OEx4LTRRZHU2STUwMGptYlNTSHZfTmJ6SGxDQVhRQm44QWpfbzBpSjFkZlFESnVVc0NGSWs3M3ZWVXozWjY5Z0otTFotdWtuZVZ4NWRoNzlYaTFENnNGbTJGSF93b0V0VXRvVmxiTUZqU1p3UzNvTmRGWnBIN0dEOUZZM3pB?oc=5) (TradingView)
-- [Gas prices dip below $4 nationwide for the first time since July—but the relief may be fragile](https://news.google.com/rss/articles/CBMie0FVX3lxTE94VmgwM3JLbTB3ZWF5X3lPdmd0QzI2LXJxbmVRUW5SUWVsZG9ub3FkQ3hMamR2cmNLZGZhX3JIRGQ3U3BrZjRtdXJYQW9HekVveUpOeXVCUzVLdVpPYmJLS3ZrS1JJYURiSHgxTmpiSFc3OWpMS2tZZHl3aw?oc=5) (Latin Times)
-- [Diesel still costing close to a ’dismal’ £2 a litre despite oil price falls](https://news.google.com/rss/articles/CBMijwFBVV95cUxPdmRrX2dJN0NndlF0U3ctaTdvZndWUU9kWF9KVl9keW1oczBJalk4MFBrZW9vdFZ5NlU0UTVfWUZWb0U3enVZWGhGcU9oUnJxdEFDdmtkSGd2ZUpyQ3BDRi1TdlN2STF6SE9wWjliRk1rQnIzTElkZVVBYXFteHVPUlJJMGx3VFRHWTIwczhYNA?oc=5) (The Guardian)
-- [Oil Prices Rebound as Hormuz Shipping Risks Persist](https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGtVTlU3RUdyVVpfdDZjTGw2UVFYMGl2U0ZFMlVBZ19rd2J5UEw1aDR5dXJoRm5PS21Vcm1pTnA1aU9TbVVSN0lUWGlBTngtb3ZGRm1ZU1ZrZU16eFdDcnpZdUgxZWV0MzluN29sZld5TTVHVU5YR3E2MF8tdzJybXNoSTRwVDhFWFJ3QnhTaHQ1NllJ?oc=5) (grafa.com)
-- [OPEC crude production rises by nearly 2 million bpd in October](https://news.google.com/rss/articles/CBMipwFBVV95cUxNSEJ6dHBjOWZVX1pCSDRGM0hNMkdPVUJWVkFQcUxmZHZRMGJXOEktRWJqM2ZvOGVvN3lWaWVubXpLekJKZl9qOW9ya0xwTHpaOTNXaXd5X3RvRW1HU0gtVy1tVGZQS1V3Q3VXZ191TnZYaUt5MDdsV0xQeG53SjFGN3dNblBoU0xGMDdZSXFCZHJPaHZFS1lWLU9oOVBpemY0d0VhM29Gd9IBrwFBVV95cUxOb1p4SkhjR0g0eHJlX24xd1VEck50SURxNjZwWmd0R1JwTE9iS0FEOXpRMldqNjVnUzVhT01sVWRvRkRtNWNxM1RicGFMUTVSdEJhdW5WNlZ0WWZiREZ2bFItNTV2RFUwT1dDRDduZnhCVlZvd2x6YkR4T0I4OWFsVU0xRlh2TjBZODktMGFQRUE2R2NBdmJmVnZwbzZvS0o4Z2dxUlJ4dTExZHVjMzY4?oc=5) (Anadolu Ajansı)
-- [Oil Prices Rebound as Middle East Supply Risks Persist](https://news.google.com/rss/articles/CBMipgFBVV95cUxOMG9QUTRTOFdKeFlQeU5fLTdmZnJjdllnZFFQb0tRcU4wOGUxaDdkUThaMERudUlRM3hyalVvMVVVZHJkZUM2OWVSWXR5ZThzSEVEOGo0WjdncmVET1NtcHZ3a1ZScFZTaGt4dlpWYnlMRGtpT3ZoM3p0cWhmN1FCNHk1LTI0dGxHMDZwQmpxcDgtSmNQNzNOZFJqbFFDVE44OVNYcERB?oc=5) (WSJ)
+- [ASX Preview: Australian Shares to Fall as Oil Prices Rebound; Aristocrat Leisure Fiscal 2026 Adjusted Earnings Up, Revenue Down](https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeXRaYlluVldEZWxjOTdhbWlPeXdaZkxaOHlETnJwQkJJTFdoUUhtLWRic1NIb09WQUhiOC1oN3BGLVZRYXhsRV8tVGRMTDVVRGNocDJVa3hTclo4ekNnRVBaNnVYdWQxNHluWGh1NERqR3lxYXdYcUtTVVhIaE1iT1pPSmhlUkg2MlpoVC1RVWs0TWZoaW95TzNYM2puWlNSS05FaFJ6cXVnQlIwLXNtRTNQMm9wazdVelpNd3UxVGVLcWljTDlqRUVBWTNpTmcwTnltbllLbWlvajN6SkhrMnZJTjNtdw?oc=5) (marketscreener.com)
+- [China's Pump Prices Set for Sixth Cut of 2026 as Global Crude Slumps; Filling a Tank to Save About 15 Yuan](https://news.google.com/rss/articles/CBMidkFVX3lxTE5hc2VrUUZKMTEyNVlWUFNrT1ZYMkJWbVpxZkJfYWlaQXloSWtrLTZ5MWZaOWNvX09NV0VnOHNUeVNQUVBoR050UUxhN1BqcllQNDhQSFB6RXBBTF9oc0lSY0dleU9DNXdYcDFCS2xDUkJKNTdPQVE?oc=5) (BigGo Finance)
+- [Global Oil Prices Rise Amid Fading Expectations for U.S.-Iran Talks; Brent Up 1.4%](https://news.google.com/rss/articles/CBMibkFVX3lxTE9kNVNtbHItVW96WnFjUUlYcWRJX0Y4SkdLemQ0ZjVYdEYzMEpSbHdiZjZ5cGJ0VDJkdTJUeGoxQnJWVDh2dE5FdW41YTlQTkVseTlzajg3NmEwR3lIcHM5WUJSeVU0QUdzYWZkeXlR?oc=5) (news.sbs.co.kr)
+- [Texas gas prices move lower after affordability played a major role in elections](https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ3RYSVBpand3WlVoWVVYNkJRUFlzd29NbGFjVkFIRklZeWN2UHZoRkFKWUZyR1FtQWFuV3VlZzM4QzNfbVJNUFhnTzMtU1ZndEpMZ3NCVFdXRUY0R3h6Q2IwR3RiQ2JiTFJOekVSYmdRVFYwcGtNWTlOQlA4OG1zcWFlMTZvZExWczBuSjNUb0Q0MVl1ZktjRTNuM2cwQVNyR0l4eWxHNEptS18xNjlF?oc=5) (Dallas News)
+- [Oil prices rise as Iran nuclear dispute fuels supply concerns (CO1:COM:Commodity)](https://news.google.com/rss/articles/CBMioAFBVV95cUxQQjNmb2ZaSGtYMUk4Nk42WmFJUmh6WG44N3J0RFNBV0FBWHBrSldWRGFoNEVUR01ZMmNhODY1V3lkUVdPNEprMjl1OXZCbmNqNW9GYWNLNXpET0RuTDVOSUpSYTV0QkNVWkNoX09Kd3B3R0FTYzA4V0djVXRNSjhQdkVRR1d6Rl9xaHBEUzlVMVg1X25fbE1lbE1WcDdFaWkw?oc=5) (Seeking Alpha)
+- [Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market](https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMUZSb1dkVEFCS2ZrMHJPWnFuNTQ0dkxQUjVTYW1OdUpaaW1HT3BqajFKalhlTFZVNDFDcnQzWTJTSXdQZTlkVVYwX2VkQ0NocTM3Vld2Mms2WW5HR0dEVnpkMHA4UVlWdVRYWWc2U0ZPMnAtRFg0QUhWT3JJclo3WG5BbUF6WUlBOGRmMTZJWkl2ZlFZSnhNb014NWtmSDJoM3BGYVhhMjdRVWR2M2VMMm5IcVBlaGY0Z0tiQ2NmaUFMLW11YTAyd25MNUZmcXMzOFNFaU1sdVdHQjhKekdwdUhRb2ZHbVVJ?oc=5) (MarketWatch)
+- [Gas prices fall below $4 nationally, but other costs continue to climb](https://news.google.com/rss/articles/CBMijwFBVV95cUxPbzFDa3kyazlnWGtBSzNCem4zVHFXV2lLb010Q2lmWmZnbC1xSWZNZzhBZmxFc1VReDUyRFVvS0E0M3ZKek5xdFRhT21QVjVCTVZnSW5taXl2VmQyUDBUTnRNSDZuc0JLd1ZZN1dQaHlyTjNkMTdoaTJuTmFiaDVJRDNfVlRYVlFaQURmSzRndw?oc=5) (WOWO)
+- [Energy Stocks Rose As Oil Prices Firmed Late Wednesday](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcEdha0s4ZUZMSmtxQXNCVHIxM0dxQ096RVktRVdRNzJpbWVBUng3clZmSjNxVFVHUVdGTDRDcjVCZmxVNmtQS1oya2ZMLWpxa2tQY21MYzVyakJ6V25PMndmYUJPa0dsSWItMzNKVmVRSkx3Q014LUc3VElkdVBhY3BEaHowOXQ2UWt3?oc=5) (Finimize)
 
 **From EIA**
 
