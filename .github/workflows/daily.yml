@@ -1,0 +1,34 @@
+name: daily brief
+
+on:
+  schedule:
+    - cron: "30 22 * * 1-5"  # weekdays 22:30 UTC, after NYMEX settlement
+  workflow_dispatch:         # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency: daily-brief
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install pandas numpy matplotlib xlrd
+      - run: python -m unittest discover -s tests
+
+      - name: Build today's brief
+        run: python update.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs README.md
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Daily brief: $(date -u +%F)"
+          git push
