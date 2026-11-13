@@ -23,17 +23,17 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 ## Today
 
 <!-- today:start -->
-### Energy brief: Thursday 12 November 2026
+### Energy brief: Friday 13 November 2026
 
 **Curves and signals** (futures from Yahoo Finance; carry is the annualised slope between the 2nd and
 4th listed contracts, the same definition as the backtest)
 
 | | Front month | 12th month | Curve | Carry vs 5-year norm for November | Long only when backwardated | Carry long-short |
 |---|---|---|---|---|---|---|
-| WTI crude oil | $88.78 (Dec 2026) | $76.40 | backwardation (+19.5%) | +17.7% | long | long |
-| RBOB gasoline | $2.665 (Dec 2026) | $2.379 | flat (-0.5%) | +4.2% | flat | short |
-| Heating oil / ULSD | $4.290 (Dec 2026) | $3.450 | backwardation (+25.8%) | +16.3% | long | short |
-| Natural gas | $3.36 (Dec 2026) | $3.34 | backwardation (+230.2%) | +161.0% | long | long |
+| WTI crude oil | $88.92 (Dec 2026) | $75.84 | backwardation (+21.5%) | +19.8% | long | long |
+| RBOB gasoline | $2.633 (Dec 2026) | $2.353 | flat (-1.9%) | +2.9% | flat | short |
+| Heating oil / ULSD | $4.307 (Dec 2026) | $3.432 | backwardation (+25.5%) | +16.0% | long | short |
+| Natural gas | $3.24 (Dec 2026) | $3.29 | backwardation (+232.2%) | +163.0% | long | long |
 
 **Spot** (EIA, as of 11 Nov 2026). Brent trades $2.52 above WTI.
 
@@ -47,20 +47,20 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 
 **Headlines**
 
-- [Import Prices Fall 1.8% as Oil, Won Decline](https://news.google.com/rss/articles/CBMijgFBVV95cUxOb3V4dWsxZlc2VUVhZDVfTUNvRUJHTHdmY1ZiemtrVEtwb3oxR1loUU1pTkU3ai1UV3RneUEya0N3N2FrQVFndGc4VTg2bS1PUERaQlZQRUI0RFBpSFdWdmE5ZFB0bUVSenNiZXg5ZjJ3V3dXU1pLME9iSlhEUE9iOHpXZ3F5Y2xoRXREMDFR?oc=5) (조선일보)
-- [(Good Morning Stock Market) Jensen Huang's Exit, Rising Oil Prices Rattle Markets; South Korean Stocks on Sidelines](https://news.google.com/rss/articles/CBMiekFVX3lxTFBIdF9QQ2NkNHZ1TVdrQXRXVmxOdl9TUW5EbmJoMjJOTWV2ZlAyLWZUZnRhRlhqdGFJY3RONDJxcVJtbXY3TFpLS0NEZUJYcVlSVjR3Y0ItZkFsd3JjVFBDME1NOVAteHJDUFJGY2xjX1NyUnFPNzJVWXVn?oc=5) (아시아경제)
-- [U.S. Stocks Fall Across the Board Amid Jensen Huang's Resignation and Surging Oil Prices](https://news.google.com/rss/articles/CBMibkFVX3lxTE5NM0luZnMyNkNfN0g3Z01fQmg1OThtYTgzWnhMQ1QxY3RmQVFVTzNYZ1N2TjlJQy1lVlFvaFAxa1RZWDFQbWFJaGREbmJLdHUyMzRJTm5DUlhCWkJwWGlxbVVzWUpDd0pQdklDQnln0gFmQVVfeXFMT05jMUhEeldEWlJOdmRFeEpXYmRvODJjVW1DVHE3aEYwMFBBSUZBUldtNjhtVjBWWV93ZEdZSDVhNUxEWHdhcmhiTllYeEROSzd5VEhnVHZqYS0tcDN3bW9aTnducXB3?oc=5) (SBS 뉴스)
-- [Import prices fall again in October on stronger Korean won, lower oil prices](https://news.google.com/rss/articles/CBMivgFBVV95cUxOdlNZa1FZQWt5dWxUSWRUV1ZXUmc4QTlVNDQ0b296OWFqTHZjWENoVXg0ZVdRNV9zYVBFUG5JbERtb2hCS3E4bENFVVBRdmQ5Q3RTTmZlbTVZbnRJb1pGVHUzUDN6RW1zV3pwNGJoblFJUmxETDNDYW5UUHNZZ0JhckRIRFh3aVNiWU55ZU8wai1IdHJQcXVfbVZERVFpOWRicVZOQTE3REtJaDUxdUVKZjFvUjVBRGd5ck80REp30gHDAUFVX3lxTE9rMHZRWnd4bldBSUhZcThfS3ZrQmdNZ3E1ZnZqb2JscnhxUlEzNWhUNHdKWEgzbHJTZFNJanlSZ0hkVXNCdmFLZk5QUUcwZFpBWFF4cURuR01nT1BkT0NGeDMxdlBmNUpZcjJnbW9taWVFMGdCSkJzcDB5Yl81bnhLUXBsVkFTU0kyamxCaFdaNFNiM1h3T29MSTVXQ0JoVGs5UVotVDdrem9fMjJFd1I1c2hFcnc5M1JNd2NMQVpEeER4QQ?oc=5) (The Korea Times)
-- [New York Stock Indices Drop as NVIDIA CEO Resigns, Oil Prices Surge](https://news.google.com/rss/articles/CBMijgFBVV95cUxNcnVNS0F4aC1ITUF6NTEyRW9ZcUV4UnlMRUV6bHBqbDR2djdJbm1td0FvdVlHNjhJQVJiM3VoX3o3VVlaZHpyVWlHb0FMVHRDVVpTQlU5c0g5NGlEbzVYeWtUXzU5MlJfWThlTUU2a0R2a1VydDBIeHRSN2RQSDNQWmg4aXcwT2V1dXJWbERn?oc=5) (조선일보)
-- [U.S. stocks fall as Nvidia’s Huang resigns and oil prices surge](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbVlXZGlPRmY4SWNXVEZqc1lnb1Y5Sy1CMG91clJNazBiMzNvUjhrVXFBWDg2UV80R0wxM3FfUmhlWkR6ZmRYam93NDYwNUVNTGtmbWhLbGhNT29OM1Y1WXRxT1MyZHZmMTJGWDdoeTE3UG85cXVEQWgxbDZ6OEpLbk10Skc0eWdu0gGcAUFVX3lxTFB5QTZFc0pxMzZkZk54cEtsVnhlYl91V1NKQV9WT29WRjJZeGh3WElQcTdEd016Y2xsS2xyS0lHWExiU2lWNEJNWjdEZDdEWThQNDFqR09haW55RFk0V2RyRE51YkVuaU5zRGtGWkZ6cnQ1ejVhOGIwaEdWdUpqaGh3ZFBPQ0ZKNExuRTlOMGdGdWdFWDNCX2IyOVRFeQ?oc=5) (Chosunbiz)
-- [Gas prices drop below $4 per gallon for the first time since July](https://news.google.com/rss/articles/CBMiygFBVV95cUxNajFFM1VSaUllUVBjb3JYb1k5U1NNaUFXRVFoZW53cU00dEFmWVp6ZWlLS29wb2tEaEhXVXZGcjIwTmdsRG1JRjN6bHUyLVdCaXFiVnZ6ZUdKQnptRmRyYUozM2Z3MlNob0xQQTlQQUJlWmc0ejNVSXhRbDZ3aTU0R1pzTGt1UmRwOTRwTEVDeFFwT0xMb1J5RklGRnM3T3Nrcm5SSWs3MG5GMzlOOXdMTDBLYVJ3MjNUU2w4NktFYVVKU1IwS1RsUVhR?oc=5) (Spectrum News)
-- [Ontario gas prices are rising. Here's how far they could go by Saturday](https://news.google.com/rss/articles/CBMixAFBVV95cUxQNWthUnA3NUtkYmpRSmw2TGxfaFBHdnhSdzlBbHN2RXhuME9DTS1MMS1jUVRHWXVZY0c2R2hhWkhUSnFrZlBGMTVWUld5Z0F3Y01CSmFISllJUG9xN18tRU40Z290dzY2SkpYM0QtMnlRMm5McWZvcFVxckk2V0VyNlZSRVRSWXYwUzR1TXpBT21KUmJtOTlCV0g3d1ljZUYtQVFQVUJ3Z1ZEVUFGSlBoR0xDWDhkSC0yYlN5YlNVSUUwaTY5?oc=5) (Inside Halton)
+- [Diesel prices remain high despite global oil supply surge: IEA](https://news.google.com/rss/articles/CBMikwFBVV95cUxQT3p0Q3E5bm9GZDNJcFJpWk1yb2x6Z0thSVVWYURCa0JQeHJxbVpqV0JTNldYd0xxNVdkLUN4dTBHM3hkY1YtN2F1SDlYZHh4RGpzZE9oMUg1VF9qcmhHTzZyU29yZUZPVTVXNGY4MGZ0YTFxb0lBUEhYQk5FbzkwOHJ5OG0yTDIxMXk4WFNNamRkeGM?oc=5) (Crypto Briefing)
+- [After the Election, Gasoline Prices Drop Below $4 a Gallon](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUHdLdHctcmdld2xTSVpLbHd5MGN0QXdxMFc5SHFtcDBxdWZPMWhfTHJWQlpieFZCUFB1Qm5ReTM1M25KZHJkdS05M1pkb1JCWWtCbTBHamkySlcyWk84M1JfRDhfVnJyOU1GNXZlRFN0Um83dU9VSl9Rb2dnMkd3cUJranRLdVY0ME14Zk9lYUxnRkN6NF91ZW9feXctdFVTWWY0ZUtNc2s5M1hqRURfX1llbGpuQjhiU1RHQ19aOHFBWTA?oc=5) (The Institute for Energy Research)
+- [Heating costs drop in Maine; Home heating oil back under $6](https://news.google.com/rss/articles/CBMihAFBVV95cUxQWEFOZkNab2xDM2F1TnU5UzN6RG5VdXRIMjI1T0Z0ZEVPNzZVby0tazFuV0c2cEIydkdTYmVVUF8yMDNYQVN3NDFHemRwcU5xRGxCcy03eTJ2Rm5HQlFRd3Rnc1pLQk5JYU9sX1VYR3Y2XzVfNDVjWEJBTnF4N1NlY092YlQ?oc=5) (WMTW)
+- [Crude Futures Post Back-to-Back Weekly Losses](https://news.google.com/rss/articles/CBMiogFBVV95cUxNeW5aQlBGZXpDT2NwZ25oWl8tV05fYlZlT0ZpR1l4Vm54UUVYYVVTbkpoN1ozdWlPay1LTDZYdDNndExsUDJISER1SkM2U1BzalFRZkRMMkVIUVMyVzM4aTBOUmxPTHF2UVFBVnBuaDlISV90T09PWkJWYmd4RGVKMTNzYUg1cTdnbjdxZmt1Tkg0UjZ2RlY2NlY3QjZwMTRRemc?oc=5) (WSJ)
+- [Mexico's Pemex sets December crude oil prices for international buyers](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaUcyc2ZSRk5JYlFfbjFqWFdwTndYRnFqbkNzaVBtYktyd1R5SlVoSS1qa015Nm5RYkFIYTgtZjRpZGpRSTl3SV9jRjZNbXFlVjE0bHZHTzJKMlRmbWl1VmQ1dTFxQXdmamdHREtMQ3NxYzROWmx6U1VoempKdkYtc1NPVDVZb2dXNUU3S2pjTVN3TFF0UVBjNThSOThBSENOX1hYTnF3VjBsTlZvQ2l5cGFWcmh2R1VwaFFoU0hTaFVacHhPSmVKU0w4M1hCVVRDQzhhUl9Rcw?oc=5) (TradingView)
+- [After the Blue Wave, will we see lower gas and food prices?](https://news.google.com/rss/articles/CBMipAFBVV95cUxPRVNvUzhqQUxZaGZNREJzbnowLVhPRzNFUXhHejRhSzAtZW9Na2k0T3BXVk9YMnhFMndxbUZpTEx3bjlqNzBKWURKNDdUSmxlUmo2czhyNUtxR2FObnI4OWo3ZFZqQktyV0lhVkt0eGNBZjM3c2k3amh5Y3VjX0VwLWNWMlByRWhwLWZOcHhUZ0Z3bU9jUEFMUjVrQkl3QVQwOUh5bg?oc=5) (www.marketplace.org)
+- [Crude Prices Weaken on Dollar Strength and Global Surplus Prospects](https://news.google.com/rss/articles/CBMisAFBVV95cUxQeHMtNVdhVHA0SjhzaVl6X1J0WUg0MUpPX3JVTE1PcHNvTHpSclVaSERoT1FtZ3BaclF2VjR5VXJiMkIyb3pBUUI4RnljVFpuYXFUbnNjeEc4NlRidFF2NUZ1cTRta19XUjFPS3E0ZTBocXRFODFVRFRBXzFBd2VvTlV6N05rNmQyUXkxazhUSDExR2pQOExreDNYNHhuUDJCbUhTSU43cjhyUXFwbjlVXw?oc=5) (Barchart.com)
+- [Oil Prices Set for Second Weekly Decline Amid Growing Supply Surplus](https://news.google.com/rss/articles/CBMioAFBVV95cUxNYXowc3lsMERlcG1zUGRRM21xb24tU3JfeG5MbkpiX1hvOXlpZ0kwNVRjVUkyRi1qOVVVVTFyMGN6VWUyZG1XN0hDM2dWdlVYNWNqZ1R4VDFJWlJETl9PWkV6a0RJc1dOVnRrS2JFYm80ZVc4RlZmeTJTdk44U0ozcHUwUm5kOHgwSnU2RENTdWpvVE5kbmlycTc5X2Njb3lJ?oc=5) (Caspian Post)
 
 **From EIA**
 
+- [Hydropower generation in the Southwest fell to record lows this summer](https://www.eia.gov/todayinenergy/detail.php?id=68445)
 - [EIA forecasts Alaskan crude oil production to grow 13% in 2027](https://www.eia.gov/todayinenergy/detail.php?id=68444)
 - [U.S. crude oil imports from Venezuela in July were highest since 2017](https://www.eia.gov/todayinenergy/detail.php?id=68425)
-- [Refineries have shifted production away from gasoline to middle distillates](https://www.eia.gov/todayinenergy/detail.php?id=68424)
 
 <sub>Signals follow the rules tested in this repo. The backtest shows they are weak, so treat them as
 a description of the curve, not a recommendation. Not investment advice.</sub>
