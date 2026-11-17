@@ -23,17 +23,17 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 ## Today
 
 <!-- today:start -->
-### Energy brief: Monday 16 November 2026
+### Energy brief: Tuesday 17 November 2026
 
 **Curves and signals** (futures from Yahoo Finance; carry is the annualised slope between the 2nd and
 4th listed contracts, the same definition as the backtest)
 
 | | Front month | 12th month | Curve | Carry vs 5-year norm for November | Long only when backwardated | Carry long-short |
 |---|---|---|---|---|---|---|
-| WTI crude oil | $85.23 (Dec 2026) | $73.49 | backwardation (+21.3%) | +19.5% | long | long |
-| RBOB gasoline | $2.525 (Dec 2026) | $2.304 | flat (-1.6%) | +3.1% | flat | short |
-| Heating oil / ULSD | $4.074 (Dec 2026) | $3.317 | backwardation (+23.8%) | +14.2% | long | short |
-| Natural gas | $3.13 (Dec 2026) | $3.27 | backwardation (+221.2%) | +152.0% | long | long |
+| WTI crude oil | $85.79 (Dec 2026) | $73.04 | backwardation (+19.1%) | +17.3% | long | long |
+| RBOB gasoline | $2.534 (Dec 2026) | $2.289 | flat (-0.9%) | +3.9% | flat | short |
+| Heating oil / ULSD | $4.057 (Dec 2026) | $3.300 | backwardation (+24.5%) | +14.9% | long | short |
+| Natural gas | $3.20 (Dec 2026) | $3.27 | backwardation (+228.5%) | +159.3% | long | long |
 
 **Spot** (EIA, as of 11 Nov 2026). Brent trades $2.52 above WTI.
 
@@ -47,20 +47,20 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 
 **Headlines**
 
-- [Fall’s Arrival Brings Deceleration To Spiking WKY Gas Prices](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSlJYRVlHYWpqVXdxTmxqRjNDUkJ6cGllZ01fSHF2SkpLeFZUUmxlN3NrWnhuU012WnNMNE40M1o1WnZKUWdZSEloUDlSQ3hYbGNnSDBwYUdRY21uT19BLUVGZkJTTy0tQlJHMzFIRlh0alBkczJtb0VtUklPVzhZemZuVmRPYjB6Q3NfU2p6RGY0aURuZ2FvV1FqWDJTVHJwNHpZbWlYR05ESTA?oc=5) (WKDZ)
-- [Heating oil prices go down slightly, but costs still hurting Mainers](https://news.google.com/rss/articles/CBMigAJBVV95cUxQallnU201WDNVLTh4cFJ6a1pQVXUwMkZiNEVuV2owNnoxMnp0ZXp6UlRzN1QzRXJKY1V1ZURfTDB5bWRYTmhyRWR1T0NCWnRjVllVMEt3RWxVenpYS1ZZY1FvV1VDTWktMURiOGs4WXdSdGZVUDE2UXRKSE5FNEhPbFpmRUJrTFBiaEhxYnFUMWZrYXV3bmRLbktjZTZ4MjlqU2VrY3pCdTBEUnlnSXJGdnpNQmV1Rk9YNklsMDhqUDBUNWF3TFh4NW1JMzNiSWxYTU02RVlqNTBLYWJnX2I3TUIxRXZiZzI0ZTBHZ2hkcW44V2lrSVQwbDhXYUpnOWpJ?oc=5) (newscentermaine.com)
-- [NY gas prices fall as Thanksgiving travel approaches](https://news.google.com/rss/articles/CBMimgFBVV95cUxQMng3anJZc19lWHVYZVlDOU9ITXlsYUZIMmp0NnpNdVlKUVFQTkJ2T09qb25UN2EzYXJJcUFjRGZSdXhxU2JUN3JiaUIyZFdSQkNjQzRYeFN3S093M2RqVkE2ZEhOaEJxWUE3cmc0c05xbndZZWw2R0hMbkZtR1NIZ3otZkVxa3pnREtLMVBsLXRuYjBGNk5rRXBB?oc=5) (Olean Times Herald)
-- [El Niño could lower US natural gas heating bills, but heating oil prices may rise 21%](https://news.google.com/rss/articles/CBMieEFVX3lxTE42dDBfMnpBVnRzNGlGYzhxNU53R0ozX2l6bVV1M0VfOGdibUM2S2tLZ2ZmWm9ZMVVkcFdWZG1QNkdvYXBZTWl3N1BrTnRSSjBFcHZKbERCbU9laUdoRXRfT1dZVjVqTG1kazlCWlpUcXlkUGZMcDBaMg?oc=5) (The Cool Down)
-- [Oil Is Falling. Why Aren’t Prices?](https://news.google.com/rss/articles/CBMidkFVX3lxTE5GajY4dlNBOVV2VnpfWjI1UlpFRldMWEN2QUZiVFpZcnRXVVhpZnV4Zm8xTGl2cm84N1h6NXJvdnRKSmVuYjV6c1JVN1ptdkRXM2hONUV0Rm5pYjdFTkg2QWp0NzZ3MEJYR0xrcUQtRS1COFpQa0HSAXtBVV95cUxQRENVMHlZR1l6RGF4NVY3MWtxM3RISTNLR205MHJTNTU2LUVISDJWWG5vcTFSY2hhdGQ5VDlKcUxLMG9NN3NDNmJwMFJCVTE1bGo5Vk1tNVlXN0hkelVwSzU3aVFiM2dXaGEyMDltMnA3enpyWUpPT010YXM?oc=5) (Inquirer.net)
-- [Southwest Airlines gains as lower oil prices and steadier post-outage recovery support shares](https://news.google.com/rss/articles/CBMixAFBVV95cUxQbHNiN2RSMnZ2NUNRZFpaUmMwdFpfdkJ3aUktUTJ5MWpLWnJnT2FnQW9qS2wxdjhTYlJFajJmWmRCMWZ3emZyVE0xVEpKNXlZY0pNUVFqOHdWajdJWUNwLXJpNVBMVk9fU3pBOThvME1zeVBjMDNqMmZHRkhvMUNQQ0NtWlk0MGdLd21DTTRNWno2dFBSaHdTcUJsQnpPbENSNmdnbnU3dndTQzJ3YVpscFBmY3FBR2ptTlczUmg5ejJYei1y?oc=5) (Quiver Quantitative)
-- [TREASURIES-US yields ease as oil prices drop 3%](https://news.google.com/rss/articles/CBMioAFBVV95cUxNT0Jzc2wtd05MQXE2U1BVMnhCUVAyUjJoemlzNW9uRXV4R1l2QTNXdUcxOTJuN3kzeGxMajVEU3NoNXowTVBPcEpVMXk0aHJ3eWxMZlU4M2FVVnBQM0EwaHUtaEo2RU5OdXQzN1lidDhFekl3dmlZYlo2N3V6RkJoelNLdncxVHpndmktRnNLMnlfRzJjOTJRVENEeUo1RnI0?oc=5) (marketscreener.com)
-- [AAA: Tennessee gas prices fall 17 cents](https://news.google.com/rss/articles/CBMifkFVX3lxTE5CWFpzOVZ2T0VDazBCWWJ0UTIwMnp1M0RMM0FDLVV2aUt0Ynk1NlNHbnFFb1k1cVV6eUViQW0xS0xNcV9TY2xLbUxsdm5meV9idnlGaDNLOEJ3blhQX2xqMHdiS2hVU1FJUkliYm1NYlh0Ml9OdUN5QTBoQVl4QQ?oc=5) (Kingsport Times News)
+- [Today's fuel prices (November 18): World oil prices rise slightly.](https://news.google.com/rss/articles/CBMihAFBVV95cUxNMUl0SF9ZdGR1MHlIemJpTDM3bWM3MnVsdFlKc2xNNmVmVi04VEdDajE2QmYxdUdGZjRYLU5pWkJ6eU9iMi1wcEdoV2pQa0dVYjdpR21hWEduSzkwazRxbXpPSmVadzRwR19wRmNlSl9YZEl2NmZ6R0lBQTVnbjd0Tlo2WTE?oc=5) (Vietnam.vn)
+- [Oil prices today, November 18th: Slight recovery due to supply concerns.](https://news.google.com/rss/articles/CBMiigFBVV95cUxQeml6VWF1SmIza3ZDQVJZZExCTHk0VU01ZHFGdnRIcWZIUFFGNXZXaDJ3aXh1MmRRVnlzYmpaMkthek1RQ0pLcFo0UjB1RnQxUUlEcFRnUmxNaDNtOWpXRzBlTXdyTzZjWDU4WS1PQS1JNjhIeXFzVUJRR1JSWHY1RThkS1ZNUk9OWWc?oc=5) (Vietnam.vn)
+- [LA, Orange County Gas Prices at Lowest Amounts Since July](https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ3JoN1AxMTBSTTRCSXVuVUx2TkxrVHFSRjRBZVlxTGpsVk9sUlVEalhFUUNOZU40dGNTV21mNVRyMkFmQXNzRVgzYkRwSHhzVDlKVW5LX3FxaXAzU1VYVFJXQjVTT1lVRW4xSFF4bGZKcXVpTm9qX2diYzdpM05RZ3I4cW9udUxUTU5fYXVVN0JocmgyQXM5YjdMOVoxSnZaZTZNay13?oc=5) (MyNewsLA.com)
+- [Gas Prices Plunge Across U.S.](https://news.google.com/rss/articles/CBMipgFBVV95cUxPLVdXLVJsSXBkaHYySldiaG80Q2VVcWs3RnFWOXlqOWpneDJCbFFkeWpadlFJM3NHVzVQNndETW1ZV2FVblBSTEdtbTQzOXlsTWJabDRQb1JydVZMQVdCeHNRQ2RyV2pqb1lzVEhBLWhMX1prMHdYVFVobnQzd2E0OHhFb0hXd0N0aWNvNVZVLXhmNkVCd2dIZnNKYVNRM0E0YWFaU0hn0gGHAUFVX3lxTE9WVUlWNWI2R24ySC1wOVpzR3RGQmdCWjM1ZzlrUTlNUTJZVlNpWTNBU0Uyd1NGM3k5aUFGY2UwUGVEaVdJMGcwZWtveWVkdjVoYS14T054c2dwaVFGdEJ2cDhQa2ZNY1A3UG9FaVV3NXhvSFBhOTFFWWgzU0d1cTZDQ1d6bm80cw?oc=5) (News Radio 1190 KEX)
+- [Energy briefs—oil prices fall despite Iran’s display of defiance](https://news.google.com/rss/articles/CBMinwFBVV95cUxPWEg2OGNpRXROU3k5bWJTLWs1MzFiazB1MzVsckZNZnlMV01ReXJsZDhmWkxfT0l5cFdWUWstd2V2V1hCM0FtZUZpOGRJcmJmNjhzd1NpVDZVdXVUdURTZWxwdjRxTU9EcmwyRWVqNkk3U2dRX0k4UkkwQlBDMC0xWEg5TTkzUTFfMzh1eW84WmkwZmZSZ3NwNXNBTmVYY0k?oc=5) (Oklahoma Energy Today)
+- [Oil Prices Edge Up as Middle East Tensions Escalate; Brent Crude Up 0.76% in the $93 Range](https://news.google.com/rss/articles/CBMiWEFVX3lxTE92Y0I5SkRiS09HN2wybTc0WDl1OUtEZ3lXejdoNVVBeG1yWnQ0eHdKZDFKZHBibmNFSzFvb3JFS25zNXVsdXNZdS13OWxJTTZnb1pyblNhbkI?oc=5) (파이낸셜뉴스)
+- [(International Oil Prices) Rebound as Tensions Rise in the Strait of Hormuz](https://news.google.com/rss/articles/CBMiWEFVX3lxTE1acGFNcEEwV1JUZkI2WUxGQWNlelQ0V3owRjgyNmhaUXgzSHplWlV2MDg0eDRjTjRJTHhjTXJCbzA5bldaZ2NuaS1ZUkZOSkk0R2VleWQyYXA?oc=5) (파이낸셜뉴스)
+- [114 gas stations in hot water for ignoring gov’t-set prices](https://news.google.com/rss/articles/CBMinAFBVV95cUxPYV84dGJ2SUVRdUNROGlYT1lmOU96d0YyZ1VBVDBKNEJBOU4tTkcxNGxHck5lTG4zdnVJTTQwWS04S0tmZ0xfdGRsOGo5azhnR2V4SHNwbkVTRlBwNXBUUXNJTHFFWlltZFFMM05YZkctRVlSWGdqNXBiQ3hicFcyVExJcWlFR1ZjdWlfUVNXVXZXWkdiNk92MWZMSVfSAaIBQVVfeXFMTlRYYldWNC1JeGJUa2czbGN1azJYVmV2dmRpdlRlVy1TTF8zM1NnTUczVlJ1a3p5TlV4cGUtSVNNTGxySzJmcFlLa01rSGluRnFiTnVrUUpwd1Q1cnVJVEZsdFBLSkNLc2VqVE8zZkR4eDZIT2FXUUNBaHNiRl9ZT2lNcGlpbHlOblJlVmZ6cWRfLU1OQ3pZM1V1V2ZvcmFKTk9R?oc=5) (Inquirer.net)
 
 **From EIA**
 
+- [How does EIA account for small differences between energy supply and demand data?](https://www.eia.gov/todayinenergy/detail.php?id=68464)
 - [Hydropower generation in the Southwest fell to record lows this summer](https://www.eia.gov/todayinenergy/detail.php?id=68445)
 - [EIA forecasts Alaskan crude oil production to grow 13% in 2027](https://www.eia.gov/todayinenergy/detail.php?id=68444)
-- [U.S. crude oil imports from Venezuela in July were highest since 2017](https://www.eia.gov/todayinenergy/detail.php?id=68425)
 
 <sub>Signals follow the rules tested in this repo. The backtest shows they are weak, so treat them as
 a description of the curve, not a recommendation. Not investment advice.</sub>
