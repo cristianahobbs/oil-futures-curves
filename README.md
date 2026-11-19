@@ -23,17 +23,17 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 ## Today
 
 <!-- today:start -->
-### Energy brief: Wednesday 18 November 2026
+### Energy brief: Thursday 19 November 2026
 
 **Curves and signals** (futures from Yahoo Finance; carry is the annualised slope between the 2nd and
 4th listed contracts, the same definition as the backtest)
 
 | | Front month | 12th month | Curve | Carry vs 5-year norm for November | Long only when backwardated | Carry long-short |
 |---|---|---|---|---|---|---|
-| WTI crude oil | $82.90 (Dec 2026) | $72.10 | backwardation (+17.7%) | +15.9% | long | short |
-| RBOB gasoline | $2.464 (Dec 2026) | $2.263 | contango (-2.1%) | +2.7% | flat | short |
-| Heating oil / ULSD | $3.954 (Dec 2026) | $3.247 | backwardation (+26.2%) | +16.7% | long | long |
-| Natural gas | $3.38 (Dec 2026) | $3.33 | backwardation (+248.1%) | +178.9% | long | long |
+| WTI crude oil | $83.89 (Dec 2026) | $73.13 | backwardation (+14.4%) | +12.6% | long | short |
+| RBOB gasoline | $2.514 (Dec 2026) | $2.288 | contango (-6.2%) | -1.4% | flat | short |
+| Heating oil / ULSD | $3.992 (Dec 2026) | $3.239 | backwardation (+23.9%) | +14.3% | long | long |
+| Natural gas | $3.25 (Dec 2026) | $3.35 | backwardation (+227.0%) | +157.8% | long | long |
 
 **Spot** (EIA, as of 17 Nov 2026). Brent trades $3.41 above WTI.
 
@@ -47,20 +47,20 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 
 **Headlines**
 
-- [Maine Democrats push for more renewable energy to combat high fuel prices](https://news.google.com/rss/articles/CBMivgFBVV95cUxOdjg3Sk0zRURvaS1hOUVkUkwyT0Fyb2dLN2hUUGJJSlpiUzFTQm5OOG9UZU9oejlRbTdvUkFlLWVhMno0VGFUQWlwMy0zTjdQMzRaRmU1azdfY1dhQlRZRUZlUzZPNlozaWdvWVlZZmphdjdwR0FURXdpRnU5MjFuNm5scmc3UjB2dUlZTFViNmczd0tUbjFPV08xVVNyXy1nQ3FNVmg3MHNMQ1dzZjVqNWdQdS1DaExGU3Q1ZzRR?oc=5) (WGME)
-- [Gas price battle brings lower prices to Walkerton](https://news.google.com/rss/articles/CBMigwFBVV95cUxNT1N1VmgtdFM2dnJQZS1QWnp0dkxWSDVoc21ya2tkNFNCUGFkOXpPN2d2UUlPemZ0ZmJRbmtwSThCeE5XVGpGbW5FbFBaeEtwT3BHRUkxemZacW5SVjY5SjZVZENXTEZIbnUtbC02RjZDd1J2bXdmN3FJbWcxVDNOOWhqUQ?oc=5) (WSBT)
-- [Gas prices fall below $4-a-gallon ahead of Thanksiving — as oil continues to flow from Persian Gulf](https://news.google.com/rss/articles/CBMizgFBVV95cUxPU1lBdWtwNzBHejN2bWctV3NjMFg2eXpLWGJqaFZlNVJubFRJYTNCdXgzU2pXeHljNXU1SWpGRWhoM2h4QU5VQjdoaWNyM1NvUDZjSnJ2ZTFXYUtyVFRNTVM3OGpoVXYzeUdqZ2Y0R0ZQZmo5cTNSME0wUEo4STZyYVY2c3JmZ0Y0RXdjb0tWRjV0RU5Ma3FiYUJtQS03NFRIczFzTnBPeGhqTnJENGs2YnFYakJybTAtZXZZSUdYLW1RQS1pS1NKM1VmVDE2QQ?oc=5) (New York Post)
-- [Stocks slip with eyes on Anthropic and Nvidia, oil prices slide](https://news.google.com/rss/articles/CBMizAFBVV95cUxOT2MtaXdxYTE1M2o2YnI2dUhiM1hITC1SQjJXQ1hqV0lwdEZxZXN6TjA1TTRETm9YMzd0UjFOd1otT1RXZWEySDJhdDVvc1BWX0VWVy1BVGRidzlJU2Roa0J4OFBpWS1PYjNMMVZpemxESGtJWGY5TlM4WE5mVXhuMnRHWTBZRTVVYndLSkk2YUZkTS1Ha2dfZnB6TDBoYnBkRldDYy0xdGpIeVJlY2x1SlZIUlNST2M3djZZbEdOQzl1WnZKYXc1Qzl2WGE?oc=5) (TradingView)
-- [HF Sinclair slides as lower oil prices and softer refining-margin signals weigh on refiners](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMDZXaHB1U1ZBUjAwSXVHbEhxZTdEMWo0aEFhd3I3Q2FsbXJMcVpDVEVFdXk1QlczQnpZQmNEdmFkTkI1VGkwWTdvbEVFenBwcGlMOUQ4aHdSYlF0Yk1KTm93RHJQTWVveFhGaFcxQVFGTXV1ZGFoSUJ6QmViM3ZQNTlVdDRZTnFLQnRmYjBLdmpIN2JRS3JhZ053Ui1JYU9WWk04VWNlQzhyOExWV3NOcm9oZ2ZjM1JqSWhXQTVsWm9Edw?oc=5) (Quiver Quantitative)
-- [CPO Futures Close Lower On Weaker Crude Oil Prices](https://news.google.com/rss/articles/CBMiWkFVX3lxTE04THZScnFoX3V0bFlSZ2pRU1dpNWk5ZG51ZF9VS0dKQ3hDcTlEbHNBU1I4UElVYU5vVVZrZ25FSVFVNGx2NjFQNDVZSVR4OURKVkRxeVhNVGFSQQ?oc=5) (BernamaBiz)
-- [Wall Street stocks mixed as U.S. oil prices fall nearly $3 a barrel](https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXFMRVRhYnBObndFcjc4YkpZNUVLTXVwWkhDbENnNkpyME15WElYODBsOWVKYnN1WWlaYktDYXV4d0ctRzFhTGRZajNEd193UWsyakhURDdPX0FmbjcwQVRoLVRQdnRaeVlUQy1xR0k4WWd0LV8yOVpvRXJneVB2a2RYa0JFT3hodncyUE9YOHdxWDdhRUJDRA?oc=5) (وكالة الانباء الاردنية)
-- [Oil Prices Fall Amid Supply Surplus Expectations, Middle East Tensions](https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDFCTV9zN1pVaFoteGpWam5uX3pGOXp4X3gwOVVqOVk5Yy1xdkdkc0w3MlFmWkNZWXA2Sms4OHhLMk5iNUExb3NYc3lJQW53dVJUQlkzVlNIX0FCWlM0cVpab0tQT2l1dzM0a3FlQmlqQ0NoQzB6WWs4Um9vbHY4LTFTMUc1Q3E5NnJYbVZSUzZ1czhPdXBkUjZMWXpKa2IxU1hqenFDc1RhRVV3bTJIdUtNWEJjZ2VsTUE?oc=5) (WSJ)
+- [Oil Prices Swing on Middle East Uncertainty](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd2JJc2tlRVZKTXU3VEVrRnBJUU9hbHdOUUNaU3RSODNHaWVEaGtFaERrTnhkWmFlSkZKeWhsUUpWOHJRczdBa2JvbmJEdGtnazVZYXg2OHFVMHFfMW1hVUpEbnQtVlg5UElhcFdlaDhaMzJlaHFHSjNIVWF0ZFR6SXFsbjRrTklDMVV5OE45dHZ2VWFaYmg4MzZ0OFJZNW1IRDExTGtLdkM?oc=5) (Rigzone)
+- [Oil futures swing on fears of escalation in strikes against Iran](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzY25yX2tFX1dsMUZ1VTU0Y2hvUnY0YmVlUjcwM3RPTGhoT2VhNFF2WElBVHFnN1RyX1k4ZUlIUFpVbGpjaE56UkRtcXZrMk9t?oc=5) (The Edge Malaysia)
+- [Oil Prices End Largely Unchanged as Brent Edges Higher and US Crude Slips](https://news.google.com/rss/articles/CBMivgFBVV95cUxOUUZPYVZoSGVfZktpdV9Gc3U2WkRiWmRJUGpqS0thc3VBSlF4ZXdmblNmOFlhOHpaeE1fWVpWTzZQWGs3YUV6eWREWE5XN3drQkN2RGhNbkpGQWJaREpaanhsUGhVa3pIOXNPc3U5aTIwcW5zM2dIbjV1M0xPYVdSTWxQS2h6MmdLSHZJT0FYRXBVZjFoeWJLNHlITjJmTGlyczZYWk5SODNPa3RleUxFWkxhR3RmU0RzTVNPTXpn?oc=5) (Qatar news agency)
+- [Surveys find gas prices affecting some Thanksgiving travel plans](https://news.google.com/rss/articles/CBMilwFBVV95cUxNNm10SlN3cHJIdmJndXZiRjlKOFBqWExqQjdJMDM2MVJaeTJRbjAxZzh6aV9uRkpkZUxQLUljSUxBaWFORFJTLWZGbTR5dHVSMGxfTUpnU3ZqNEdnMk5sdnZ0bFpZZ01jYUxLWDJWQjZYcW5zdFFQVUNyZDdMSTMtUFVIekU4ODJEWkVhSDg0dnM2T3pROWJZ?oc=5) (Midland Reporter-Telegram)
+- [Gas Prices Plunge to an 8-Month Low After 26 Straight Days of Declines](https://news.google.com/rss/articles/CBMinAFBVV95cUxNX0gyUlVlY29MRS0wT3NseGVkWXRHNVE5MzE2b0ZPVXFXVG9rckxIeXFFbUtmSmxWWlJxS1pnckJseEVCMkZmQ0ZucjZpdzhsVVNjaDhaQ3BzREFQWmVleVZOUERySFNHd2dfZmFNd2N6YVc0UlA0VklrNy1LNkJDdXFjd3BpbEQySDNzZUNSUkFhU2dNcWxuNk9ENF8?oc=5) (Investopedia)
+- [🇺🇸 Trump says oil prices dropped like a rock the day after the election and his Energy Secretary says the Strait of Hormuz just had its busiest day ever. “Yesterday was by far the largest flow of energy out of the Strait of Hormuz probably ever.” Chris Wright says](https://news.google.com/rss/articles/CBMibEFVX3lxTE1ERnE1MXEwVFFmaWFtSmN4NnVzWDY1SXFoSGRYNUlWNWFuTUg0QkNOS08yMnRDU2ZDUkwtcjJBQjNPaUdGaTBJYm54V0FzakN1bEFpVzUtby1UYlBlTkd3d1RLbnpLTDJhTWlXTA?oc=5) (X)
+- [Plunging oil refining margins signal inflation relief for central banks](https://news.google.com/rss/articles/CBMizwFBVV95cUxQZ1NwbHgwTk5QOEE3QjBrcndzOFpKOWtNMmduSTNLeTczMTA2NTVTYWF6cmFKQThoM0ZMSHBEQUR3b3JkY3ZoeG9UX21ZWFg1UXJqUnlqUU1Xbk9rMnZKYzhrNmFycjJCSk5FdkZjN19oQVVjelhlTkhTTHFXdkw0Z1g0NU5jUGVKOHBlNGQwMUZBUFM5NF92RHY2Qkh1NFlXRU5LWU9iQ2xYNU9lVWt2NzZfbnl5M1RZVi02bk9BVXpMWERKRnctMWVoY01TanM?oc=5) (TradingView)
+- [Oil Futures End Volatile Session Near Flat](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeUlHaVFFSnlSWkY0ako5NjJsMTNsVjQ4eGhKc05oZGFWMDN4c3RQR0NyODVNUzNUenFRNS01Y1QyZi03Vm45eTNkbXF3bVBlTUhkWGVHeXIteUlPNFY2aEh3bnh4VXFaVzRMWk1fOV84SXQ4RlRMb2p4QWZ1b2NMb0JJQWZpdURHb2VLLVZVT20yQk5nWTBPUl9hUUxvcllXM0p1dFdxZjd2WWFlaEtVUGFoUzNHNG1IYWQyTkZfLUtOQQ?oc=5) (WSJ)
 
 **From EIA**
 
+- [Oil flows through Middle East chokepoints increased in the third quarter](https://www.eia.gov/todayinenergy/detail.php?id=)
 - [U.S. natural gas inventories end injection season above normal levels](https://www.eia.gov/todayinenergy/detail.php?id=68484)
 - [How does EIA account for small differences between energy supply and demand data?](https://www.eia.gov/todayinenergy/detail.php?id=68464)
-- [Hydropower generation in the Southwest fell to record lows this summer](https://www.eia.gov/todayinenergy/detail.php?id=68445)
 
 <sub>Signals follow the rules tested in this repo. The backtest shows they are weak, so treat them as
 a description of the curve, not a recommendation. Not investment advice.</sub>
