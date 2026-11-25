@@ -23,44 +23,44 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 ## Today
 
 <!-- today:start -->
-### Energy brief: Tuesday 24 November 2026
+### Energy brief: Wednesday 25 November 2026
 
 **Curves and signals** (futures from Yahoo Finance; carry is the annualised slope between the 2nd and
 4th listed contracts, the same definition as the backtest)
 
 | | Front month | 12th month | Curve | Carry vs 5-year norm for November | Long only when backwardated | Carry long-short |
 |---|---|---|---|---|---|---|
-| WTI crude oil | $83.98 (Dec 2026) | $72.49 | backwardation (+14.3%) | +12.5% | long | long |
-| RBOB gasoline | $2.450 (Dec 2026) | $2.257 | contango (-3.9%) | +0.9% | flat | short |
-| Heating oil / ULSD | $3.694 (Dec 2026) | $3.134 | backwardation (+17.6%) | +8.1% | long | short |
-| Natural gas | $3.33 (Dec 2026) | $3.33 | backwardation (+235.7%) | +166.5% | long | long |
+| WTI crude oil | $83.85 (Jan 2027) | $72.16 | backwardation (+17.9%) | +16.1% | long | long |
+| RBOB gasoline | $2.422 (Dec 2026) | $2.251 | contango (-6.0%) | -1.2% | flat | short |
+| Heating oil / ULSD | $3.700 (Dec 2026) | $3.132 | backwardation (+19.9%) | +10.4% | long | short |
+| Natural gas | $3.27 (Dec 2026) | $3.33 | backwardation (+246.1%) | +176.9% | long | long |
 
-**Spot** (EIA, as of 17 Nov 2026). Brent trades $3.41 above WTI.
+**Spot** (EIA, as of 24 Nov 2026). Brent trades $9.56 above WTI.
 
 | | Price | 1 week | 1 month |
 |---|---|---|---|
-| WTI | $89.53 | -0.1% | -17.3% |
-| Brent | $92.94 | +3.1% | -22.1% |
+| WTI | $82.24 | -8.1% | -25.0% |
+| Brent | $91.80 | -1.2% | -28.4% |
 
-**Cushing crude stocks** (EIA weekly, 13 Nov 2026): 26.1 million barrels,
--1.2 million on the week, vs 25.0 million on average for this week over the past five years.
+**Cushing crude stocks** (EIA weekly, 20 Nov 2026): 25.6 million barrels,
+-0.5 million on the week, vs 25.3 million on average for this week over the past five years.
 
 **Headlines**
 
-- [Bank of Canada expects 2nd round of oil-linked inflation in 2027, Macklem says](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSGQ0dkVVaHR2dHpPWVBhUnlIb3d5Y2dJaE5SbW9NNnhCYkJQRHJVOFNIMklxSXdoVllXVVlJemwtVHVpT3p1RTRaZDE5S296S1lKN3BmTWQ1MEd6REVXclhlUS01VEtBNThzbVJKMzQtTVAyeE5tS2FZN3dGYWctQzJnVTVhRVdFUWNz?oc=5) (CBC)
-- [Michigan lawsuit alleges DTW-area gas station charged 'unlawful' fuel prices](https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZmF3ajNXR0FtQnFMMC00VERJcjk5bWF3RWM3V3FOaUlVMF9nMm9Zc2FUM25pT0dEWi03R1lWUy1rakpOVmw1b0xSWVgwNUtDbTJwQ1EzOWhORC1JLTZfdVJuY2NLVzc5YXpiZWgxczZKNGhuelFCLW93Qk5ONVhDQTVRWjA2LTRxUE9ZM2NoTlpxNll3Z3VqQWUxY0k3Umo2RnhycGlheHA5SHF4MjBYb3VNTjQ3LTlEdVNhTGFDbjRoZFVkYjM0VHpqZUNMS0ItRlkzNlZyZEZxMHRrRFdHY2pEZ1MtSFBCWHN5Sg?oc=5) (WZZM13.com)
-- [Oil prices rebound more than 2% on fresh shipping attacks near Hormuz](https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzZYQUZrSENSV0ZmYnZHRkFSaFZFTTlSbkVsN0ZKTFNqOFN2SmxyNEZLeTJJZDVKWDB5eXRoZFlGalNibjNoTVY3aHVxWWRESmg2d0Y3RUl6cDdUbXgzd3pCUURGMEdKSlpQZm05Y0xCQ0d6cHRsUzkzeVNOeWRKdW5xYWlZWjRIRjBRVTNsTVR3RGJ4UkF4TGl3?oc=5) (Middle East Online)
-- [‘Little Strange’: Trump on Falling Gasoline Prices](https://news.google.com/rss/articles/CBMiowFBVV95cUxNLTVnVmdkSW42a3AyYnV6MGlFUXRzM1hjczFQV0h5RHBKZ3NTTDdabU5PMVpMaUxrQUNkYm83dzZzdlBuVXQ2SFlYa3VsbWRldVRoS0xqOXlXaEZnbU0zd05BMVB0X3BQelE0NENadnVub1hRUjB2Y3V2NGFoZFFZSGE3aHAwWFRxYWdVaE93TWxCNnMteFNKVV84Mi1XeER4aGhB0gGoAUFVX3lxTE82NGhyVTBhR1czWlotWDJ0V3pHMDk5clBxSVZFcG9iNC15cURuM3JEQWk3ZTd5V2RFcDJjallTcUlKX0tXTDJsZmVISGhFN2hEeURZckJCQWtsdkl5RjJEOHMtLXBmVC1ubkpoa1IyczFoSXVGNjQ3NUYta2pINENoZGFjRmRnSGloakU4bGdmX1ZqUjVDV210N1pVVWk4ZlFadEdkQUlxZQ?oc=5) (Al Arabiya English)
-- [Oil Prices Rebound as Shipping Risks Persist](https://news.google.com/rss/articles/CBMisAFBVV95cUxQMkpRNmtac0F4dkZ2QTRqVEhSc2piS0Vpd1JNaHVScnZZYmRfdzBEbWZXOUFjb0dhR29XZURYZnRUcTVkQW41Y3pOT1plS0ZDOU5NTm1Qel9OUWRMNU53Y2ZoUjBWU045YUczZFRfZGswa0UtY2hVMVJMS2g0b29qUmw3YjN4VHF0aGVTYjVZdl94WjcwdXkxZ3diaVNXSWZwcE9tM2V3b3JLcTRTU0o0aw?oc=5) (WSJ)
-- [Gasoline prices may be inching down, but some have already canceled Thanksgiving travel plans](https://news.google.com/rss/articles/CBMilgFBVV95cUxQdUl2SGNTWUkwRVp2UDFfV0UzN0I2V1hscFNrV0xuWl9McWc0SDJTZ3FqdW4zQVFnVHJRMEFoMWFZdUw5ZnFvWmZlTmI5Rmo4b1BVSFF4SGNPWXFaUXNySlN4cmhNckl4NU42UEVhM2NRS3dPV2s1VkU3QVZVeEx3N3dVOXFUTVFSX0xERE51MzQ2bHNLMFE?oc=5) (Long Beach Post)
-- [What Would It Take For Lower Oil Prices To Break Occidental Stock?](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTWpELUVzOWpYMm9MZWg5d2xDcUlPbmZxRmVpRUN0TWFaMUVuNnM5MmdhQmVlWlpBS3k2YXFrTXdOaEdYdklSZUNMLW93WTBta1luLUhNdjNFdVAyS1ktMXFUc3AxbWZXSW1DWHkyQmo0SEtfNGRDR1pVUkw0aEtaZWVueU9UMFZRalZndENKQ0Y4NWY3M0NUV1NnUEVHX2ZwWEx5MFRkajY5eUNwS2lZTkdXNEtFSXkwSzdFeTJlZ3VyLWc?oc=5) (Trefis)
-- [Thanksgiving gas prices soar higher as travel season starts. What CA drivers pay](https://news.google.com/rss/articles/CBMibEFVX3lxTE50eUhNLW51TTRyQklrS0c3NmFkMjcwSlhTRjNhbm9mMl94T01zWTFEczlJRmVpX1dFZVJGNlA3LV9EQU0tQjZQQndFSUNiRXBacXRDQjhKY3l3blBqU3pHNnI2WEo3SVhZOVJfSg?oc=5) (Sacramento Bee)
+- [Gas prices fall below $3 a gallon in parts of metro Atlanta | Why prices are falling at the pump](https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZFkwcXF3X09BX0tBOERIRDdiV1FQWmQyYXhLbXVCdUw5a0xiTnRyQ3VLZFlNMUtWQUdiNmNGckx0b1ZjVW5PZWoxNk5USDdlbWU3bm9QdkNtQXBUdE1FYmZIRGd2bFdkWGN0RWxUY1RqT2pwTTBjUTNuZmE4OHVUZlFzOVlfZHdzZVhCWm1TWHVKSW5wTWY3SVd2ckNxVDR5VGNMaUlSMnJVaUlZUzEyMi1rUEY4RnBsXzNlRXhPWkN3T3NfYzFhdnpsZ1RnNVN3Q2VOMmFRZmJwWTlza1RxN0V0QjlVTC02aXpBTWY3OGNkQ3plMy1oeFJmN0JKRmpQeW42emlic05zRjg?oc=5) (11Alive.com)
+- [Gas prices drop below $3 at some Mobile stations ahead of Thanksgiving](https://news.google.com/rss/articles/CBMiogFBVV95cUxOZlNyM0RJWG5DUklUaVlIVElMbGprUkg5WUplaXktUTF5OGo4bHJLYzN5QXVjZ3Y1cGp2MW9WalQ0alZHc254VHNCUjUydmFOdVNQclhNclFGb0I2WTlOQkZZdjRPcXZuZ25oQjVjRVlRWm5URjRKZzI2bE9SZ0lwU1VVOEdKclYtUl9idUNuOGFfc3ZZWEZaVzl3M0FTTlcxakE?oc=5) (NBC 15 WPMI)
+- [Tracking U.S., state and county gas prices, in maps and charts. Updated daily.](https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWgwSVltbkxJVmRPeHZtbUNLb0wwcEFVUnpnc0MzdEsxSTVTd3NnVGI3TGQ5Y2t2RHVad05VZmF2UmlIZFhFSS00Q05xTEpJSW9nbnJXMndOLVU1bmFLUkJCeGtnSE9uODE0NnFWUmU2YS1rM2FfbjgzNDRObmZpYk9DMWoyUTlUMkZBMU04THAxTFFLdEJockxn?oc=5) (NBC News)
+- [White House says gas prices fall to 8-month low ahead of Thanksgiving, as Trump predicted](https://news.google.com/rss/articles/CBMiswFBVV95cUxPLXc0d1d2R2lZT1pTUnVzQTlqTDlKREU0NmFxTkNkYkdzWm1HQjNEY0J2d2FQTUJVbG9oTjNEWXU0dTgyd21pb0VZR29lWmktc2M2ZFh4WVBWZlM4N05XMGpLckp2V1dabWNyRzhtWS1xQlNWX3I4RkxfYThLQ0FSYXA0SW5GSkR6anRWZnpzRmF3YkdTWGNtMHhabndVQVZfc1IyR0tQd0o3ZUEwQnpqWGVTNA?oc=5) (Florida’s Voice)
+- [Fact check: Did oil companies raise gas prices to hurt Republicans in the midterm elections?](https://news.google.com/rss/articles/CBMiogFBVV95cUxNWk1QYy1vOFFGbXZudnJMci1MUHNpV2lyRkF3RFRBYnl3ZmQtZndHYV83c0pFUU96bHFDUUd5Uzc5TEJCdmVMc1I0OWtKTXZhQkg4bUJGVWFEUlB0cWk4Q3pzTXlTaEJGc3dpT0poT3hzZGNPc2FhQ2xKZkV3SmhmUnBqNUstZi1iZ1dsLUw3ajBjN1F4RkZyYnV1Sk1fRktoV0E?oc=5) (WRAL)
+- [Crude Prices Push Higher on Concerns Over Global Supply Disruptions](https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2RIRHpjUDY3SGtUNnk1VDFvV3NJSUdMYkJZNmt3U1NUWENFTjU1a3BlRTVpcHRPbzBsMWtIREVyRWpoaHIyTTdkOG5VdlFKSFVhMG9rSzhEc2xjYmlpT1c0TFVSLUk5c1dSWWhIRnlGYm4yNndNZ3FoUjBmSWF3RVVSaXhkSVVZUFdwTEgxams3U0ZWSGdYUXUyRGFFbEFvM05TLUVYeHdhQ01tMmhHeQ?oc=5) (Barchart.com)
+- [Oil prices fall with ongoing fears over weaker demand](https://news.google.com/rss/articles/CBMimgFBVV95cUxPNlpBWmpUMlJXbHZaQ0dDT2p5d3loS3dHZ3B6MWQzSU9MZEZxLWl5RkdIVFM3ZmRFVEZLWHdJUlZMWklxY3FRSWF1NnNZNWJfRFRzY1dJZUFQSnBsWFh2QXgtdWpMQXVZWTJER0hGMmFqY25ReVBlcUJwQXR4bEVxZWJIeW94UWtoNVZYbjFlOG90YTBNNlZvdDBn?oc=5) (Yeni Safak English)
+- [Oil prices down as output, stocks remain high in US](https://news.google.com/rss/articles/CBMilgFBVV95cUxPRFZMdWZyZ1ZqZzBLWWJlNlhNeGU4a045eHc3ME9tdm5JY2drUHdkb0pFNkhRdkcyNk43Z0gyTG1ZMmwtRHBLZzlOSTk5Vi1WcHg4LVJJSWp1dVlZbUR2RGtfZFVycF9pRE9YZ0p2c3N5ZXJGMGJJRlliV3oyOVcyZHo0bTlsQWZZR1YtY2w3NFAzMzdJZVE?oc=5) (Yeni Safak English)
 
 **From EIA**
 
+- [Almost 60% of primary energy used for electricity is lost to conversion and transmission](https://www.eia.gov/todayinenergy/detail.php?id=68504)
 - [How does EIA compare different types of energy?](https://www.eia.gov/todayinenergy/detail.php?id=68504)
 - [Oil flows through Middle East chokepoints increased in the third quarter](https://www.eia.gov/todayinenergy/detail.php?id=)
-- [U.S. natural gas inventories end injection season above normal levels](https://www.eia.gov/todayinenergy/detail.php?id=68484)
 
 <sub>Signals follow the rules tested in this repo. The backtest shows they are weak, so treat them as
 a description of the curve, not a recommendation. Not investment advice.</sub>
