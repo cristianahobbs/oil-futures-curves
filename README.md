@@ -23,17 +23,17 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 ## Today
 
 <!-- today:start -->
-### Energy brief: Wednesday 25 November 2026
+### Energy brief: Thursday 26 November 2026
 
 **Curves and signals** (futures from Yahoo Finance; carry is the annualised slope between the 2nd and
 4th listed contracts, the same definition as the backtest)
 
 | | Front month | 12th month | Curve | Carry vs 5-year norm for November | Long only when backwardated | Carry long-short |
 |---|---|---|---|---|---|---|
-| WTI crude oil | $83.85 (Jan 2027) | $72.16 | backwardation (+17.9%) | +16.1% | long | long |
-| RBOB gasoline | $2.422 (Dec 2026) | $2.251 | contango (-6.0%) | -1.2% | flat | short |
-| Heating oil / ULSD | $3.700 (Dec 2026) | $3.132 | backwardation (+19.9%) | +10.4% | long | short |
-| Natural gas | $3.27 (Dec 2026) | $3.33 | backwardation (+246.1%) | +176.9% | long | long |
+| WTI crude oil | $84.82 (Jan 2027) | $71.94 | backwardation (+23.1%) | +21.3% | long | long |
+| RBOB gasoline | $2.448 (Dec 2026) | $2.251 | contango (-5.2%) | -0.4% | flat | short |
+| Heating oil / ULSD | $3.750 (Dec 2026) | $3.132 | backwardation (+20.3%) | +10.8% | long | short |
+| Natural gas | $3.27 (Dec 2026) | $3.30 | backwardation (+242.1%) | +172.9% | long | long |
 
 **Spot** (EIA, as of 24 Nov 2026). Brent trades $9.56 above WTI.
 
@@ -47,14 +47,14 @@ There is also a [Streamlit app](#curve-explorer-app) for looking at the curve on
 
 **Headlines**
 
-- [Gas prices fall below $3 a gallon in parts of metro Atlanta | Why prices are falling at the pump](https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZFkwcXF3X09BX0tBOERIRDdiV1FQWmQyYXhLbXVCdUw5a0xiTnRyQ3VLZFlNMUtWQUdiNmNGckx0b1ZjVW5PZWoxNk5USDdlbWU3bm9QdkNtQXBUdE1FYmZIRGd2bFdkWGN0RWxUY1RqT2pwTTBjUTNuZmE4OHVUZlFzOVlfZHdzZVhCWm1TWHVKSW5wTWY3SVd2ckNxVDR5VGNMaUlSMnJVaUlZUzEyMi1rUEY4RnBsXzNlRXhPWkN3T3NfYzFhdnpsZ1RnNVN3Q2VOMmFRZmJwWTlza1RxN0V0QjlVTC02aXpBTWY3OGNkQ3plMy1oeFJmN0JKRmpQeW42emlic05zRjg?oc=5) (11Alive.com)
-- [Gas prices drop below $3 at some Mobile stations ahead of Thanksgiving](https://news.google.com/rss/articles/CBMiogFBVV95cUxOZlNyM0RJWG5DUklUaVlIVElMbGprUkg5WUplaXktUTF5OGo4bHJLYzN5QXVjZ3Y1cGp2MW9WalQ0alZHc254VHNCUjUydmFOdVNQclhNclFGb0I2WTlOQkZZdjRPcXZuZ25oQjVjRVlRWm5URjRKZzI2bE9SZ0lwU1VVOEdKclYtUl9idUNuOGFfc3ZZWEZaVzl3M0FTTlcxakE?oc=5) (NBC 15 WPMI)
+- [Oil prices up with weak dollar](https://news.google.com/rss/articles/CBMie0FVX3lxTFBHRnNEV0tCNmpuSm9uWDczWWFtQ2tGSllKb3djRV9Db2RFQk1SOE1xUW1PTHNXSDAtVXNtSWpCT2R3Q0hDek42Z0RVaF8yZnBhc0IyaVhCam1lQ0FJcTFGcmNiNHN0Qk1lZHNySGdqRWRFc0Z6QzJob3FXMA?oc=5) (Yeni Safak English)
+- [Ras Tanura Smoke Seen From Space: What the Saudi Strikes Mean for Oil Prices](https://news.google.com/rss/articles/CBMiswFBVV95cUxQcER5WGpmQ1hQTDFEM2lRNTlqMzRFakJ5bkVuNEwwZ1FSWE93cnFIMXpMdG9vRmNzNHFrMDhNd0p0Tzg0aV91U3dqRS1HLXhVZXpDVHRQSkpfTmx4em1XOEtnNGhaRy02TzQ2MHU0Tm04UzNHWmRLOW5Id3UycmRTLU9VYXdtaGtLeTdYRV92Vl9sazlndE12VlNQbWphb2FWZlhtZXllcnEzcUdHb3VfM083TQ?oc=5) (Around Prague)
+- [Oil prices up](https://news.google.com/rss/articles/CBMiU0FVX3lxTE96UTdRcXhNd09ITF9iTUtuRFFxRDFYTmgxdEpQNXlRZTZ6QVc0T2pUWDBvN0EzbWxfcnlHZ3ZLMTQtcXVvUVFHMEFYV2VLOG1qZU5j?oc=5) (News On AIR)
 - [Tracking U.S., state and county gas prices, in maps and charts. Updated daily.](https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWgwSVltbkxJVmRPeHZtbUNLb0wwcEFVUnpnc0MzdEsxSTVTd3NnVGI3TGQ5Y2t2RHVad05VZmF2UmlIZFhFSS00Q05xTEpJSW9nbnJXMndOLVU1bmFLUkJCeGtnSE9uODE0NnFWUmU2YS1rM2FfbjgzNDRObmZpYk9DMWoyUTlUMkZBMU04THAxTFFLdEJockxn?oc=5) (NBC News)
-- [White House says gas prices fall to 8-month low ahead of Thanksgiving, as Trump predicted](https://news.google.com/rss/articles/CBMiswFBVV95cUxPLXc0d1d2R2lZT1pTUnVzQTlqTDlKREU0NmFxTkNkYkdzWm1HQjNEY0J2d2FQTUJVbG9oTjNEWXU0dTgyd21pb0VZR29lWmktc2M2ZFh4WVBWZlM4N05XMGpLckp2V1dabWNyRzhtWS1xQlNWX3I4RkxfYThLQ0FSYXA0SW5GSkR6anRWZnpzRmF3YkdTWGNtMHhabndVQVZfc1IyR0tQd0o3ZUEwQnpqWGVTNA?oc=5) (Florida’s Voice)
-- [Fact check: Did oil companies raise gas prices to hurt Republicans in the midterm elections?](https://news.google.com/rss/articles/CBMiogFBVV95cUxNWk1QYy1vOFFGbXZudnJMci1MUHNpV2lyRkF3RFRBYnl3ZmQtZndHYV83c0pFUU96bHFDUUd5Uzc5TEJCdmVMc1I0OWtKTXZhQkg4bUJGVWFEUlB0cWk4Q3pzTXlTaEJGc3dpT0poT3hzZGNPc2FhQ2xKZkV3SmhmUnBqNUstZi1iZ1dsLUw3ajBjN1F4RkZyYnV1Sk1fRktoV0E?oc=5) (WRAL)
-- [Crude Prices Push Higher on Concerns Over Global Supply Disruptions](https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2RIRHpjUDY3SGtUNnk1VDFvV3NJSUdMYkJZNmt3U1NUWENFTjU1a3BlRTVpcHRPbzBsMWtIREVyRWpoaHIyTTdkOG5VdlFKSFVhMG9rSzhEc2xjYmlpT1c0TFVSLUk5c1dSWWhIRnlGYm4yNndNZ3FoUjBmSWF3RVVSaXhkSVVZUFdwTEgxams3U0ZWSGdYUXUyRGFFbEFvM05TLUVYeHdhQ01tMmhHeQ?oc=5) (Barchart.com)
-- [Oil prices fall with ongoing fears over weaker demand](https://news.google.com/rss/articles/CBMimgFBVV95cUxPNlpBWmpUMlJXbHZaQ0dDT2p5d3loS3dHZ3B6MWQzSU9MZEZxLWl5RkdIVFM3ZmRFVEZLWHdJUlZMWklxY3FRSWF1NnNZNWJfRFRzY1dJZUFQSnBsWFh2QXgtdWpMQXVZWTJER0hGMmFqY25ReVBlcUJwQXR4bEVxZWJIeW94UWtoNVZYbjFlOG90YTBNNlZvdDBn?oc=5) (Yeni Safak English)
-- [Oil prices down as output, stocks remain high in US](https://news.google.com/rss/articles/CBMilgFBVV95cUxPRFZMdWZyZ1ZqZzBLWWJlNlhNeGU4a045eHc3ME9tdm5JY2drUHdkb0pFNkhRdkcyNk43Z0gyTG1ZMmwtRHBLZzlOSTk5Vi1WcHg4LVJJSWp1dVlZbUR2RGtfZFVycF9pRE9YZ0p2c3N5ZXJGMGJJRlliV3oyOVcyZHo0bTlsQWZZR1YtY2w3NFAzMzdJZVE?oc=5) (Yeni Safak English)
+- [Gas stations refusing to lower fuel prices set to be suspended—DOE](https://news.google.com/rss/articles/CBMivAFBVV95cUxOaGNvVlhqT2FoZjg4Sm5UV202RVJCRGZZQ3Z0S1gwZGx0TjAzY242ODVOS1BCTnVwOUFuR09QWXhfSnhOdTVsTmsxNi1URk9OQ0F4X2NzclJRUWVmUUdlbjRQTG5xcGg3SWd4UzZmU0ZtUDd6Tk9xcDBTZGdFM0ZQckFMOTJKYjgyMDRhMDBhTnlSU2gxUUczWE5IanplZVIxVXB3WWV0U2E0eVMyY0pFSEg1aUEydktjbHRnYg?oc=5) (ABS-CBN)
+- [Alberta projects $8.5 billion surplus due to high oil prices](https://news.google.com/rss/articles/CBMieEFVX3lxTE0yelVVWGxvem9QOWZjUTNVV0tBQWJoTTFBdkx3b25EWGJJQW9ybldrMGFZRUJZYXoxYWxHeVp3SVFtSldFUDVjMDhjOG1nT25nWlFEVmZPbFlFUGpRZ2hTZmNRc2h0RXFkTGNqUEJFV0xMbVhrYjlidg?oc=5) (Yahoo News Canada)
+- [Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns](https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3lnVzA4RlRaOGkxUDRSNWlyR096S2xXd1IxV0dPMGRWLWFBX1dMbE5Xc2VQSFVXZ1NIalh3VFd2UWtkdV9tVExpWTBCWG5ZNGo5cEF2Y2ZrMEl1eWgwT3Y0M2EyaGl2dERpbG5ST1BnTHV5T25wNFo4Z3Z5WWJyOE9CM2Y4V2xYYXE4SlRadGs?oc=5) (Yahoo Finance)
+- [Alberta projects $8.5-billion surplus as global turmoil drives up oil prices](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUkhNLVc2Z2Q3M2w3YlhyWjc1dGVIVXdDNnI1aHRBZFM0SVlLVy1Tc3BOZmx0T3VfZlR1NXh6LTBacl9MUE13WVBuMUVsYWxWOUpSa1BQbDA5c2VfblJZWEZWSVpzcGxIa3U1VE50Smk5eEhlLUtvaVJlbl9MNnUxRHc5X092Wm83eS16d0lrYl9Wb201ZWVTcExmcWdxd1lDSVR4aDBIZVJTQUY4dkE5aE9OblludzdKUkNuTkhEd2E?oc=5) (The Globe and Mail)
 
 **From EIA**
 
